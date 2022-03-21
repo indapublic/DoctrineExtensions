@@ -45,6 +45,7 @@ class Annotation extends AbstractAnnotationDriver
         'timestamp',
         'vardatetime',
         'integer',
+        'utc_datetime_immutable_precision'
     ];
 
     public function readExtendedMetadata($meta, array &$config)
